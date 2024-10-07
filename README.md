@@ -4,11 +4,11 @@ dockerを使って環境構築するよう変更
 
 ## 起動方法
 ```
-# app配下に移動して、アプリケーションのビルド
-cd ./app && gradle clean build
+# アプリケーションのビルド
+gradle clean build
 
-# docker-compose.ymlに移動して起動
-cd .. && docker compose up -d
+# 起動
+docker compose up -d
 ```
 
 ## URL
